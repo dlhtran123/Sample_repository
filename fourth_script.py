@@ -7,5 +7,4 @@ def SelectedPerson(participant):
         return True
 selectedList = filter(SelectedPerson, participant)
 print('The selected candidates are:')
-for candidate in selectedList:
-    print(candidate)
+
