@@ -3,8 +3,4 @@
 # Define the function to filters selected candidates
 def SelectedPerson(participant):
     selected = ['Akbar Hossain', 'Zillur Rahman', 'Monalisa']
-    if(participant in selected):
-        return True
-selectedList = filter(SelectedPerson, participant)
-print('The selected candidates are:')
 
